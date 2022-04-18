@@ -1,0 +1,183 @@
+.codeimg{
+    background-image: url(codingimg.jpg);
+    background-size:cover;
+    position:relative;
+    width:100%;
+    min-height: 100vh;/*important to cover all page*/
+}
+* {
+    margin: 0; /*important to cover whole page*/
+    padding: 0;
+    font-family: monospace;
+}
+.fa-solid{
+    position: relative;
+    top:50px;
+    left:50px;
+    display:inline;
+}
+.codeimg h1{
+    position:relative;
+    top:5px;
+    left:135px;
+    color:white;
+    font-size: 30px;
+}
+.uli{
+    flex:1; /*to occupy all space in the row*/
+    text-align:right; /*set the text alignment for different div elemnt*/
+
+}
+.uli ul li{
+    position:relative;
+    top:-10px;
+    display: inline-block;
+    list-style: none;
+    padding:8px 12px;
+}
+.uli ul li a{
+    color:#fff;
+    text-decoration:none;/*i believe to remove the purple color+underlining*/
+    font-size:20px;
+}
+.uli ul li a:hover{
+    color:blue;
+    text-decoration:none;/*i believe to remove the purple color+underlining*/
+    font-size:20px;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between; /*we use it with the flex display value*/
+    align-items:center;
+}
+
+.intro{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    text-align: center;
+}
+.intro h1{
+    font-size:25px;
+}
+.intro p{
+    font-size:17px;
+}
+.intro a{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color:#fff;
+    top:25px;
+    padding:12px 34px;
+    border:1px solid white;
+    display:inline-block;
+}
+.intro a:hover{
+    background-color: blue;
+    transition:0.5s;
+    border:1px solid blue;
+}
+.AboutMe{
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    min-height: 115vh;
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    right: 0%;
+}
+.AboutMe h1{
+    font-size:40px;
+}
+.AboutMe h2{
+    font-size:30px;
+}
+.AboutMe p{
+    font-size:24px;
+}
+.AboutMe img{
+    width:75px;
+    height:auto;
+    position:absolute;
+    display:inline;
+    right:69%;
+}
+.Education{
+    background-color: grey;
+    position:absolute;
+    top:135%;
+    left: -0.5%;
+    width: 91%;
+    height: auto;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+}
+.Education h1{
+    text-align: left;
+    font-size: 35px;
+    color: #fff;
+}
+.Education p{
+    text-align: left;
+    font-size: 22px;
+    color: #fff;
+}
+.Education h3{
+    text-align: left;
+    font-size: 29px;
+    color: #fff;
+}
+.contactme{
+    color: #fff;
+    background-color: black;
+    position:absolute;
+    text-align: center;
+    left:0%;
+    top:225%;
+    min-height: 115vh;
+    width: 100%;    
+}
+.contactme h1{
+    font-size: 100px;
+}
+.contactme h2{
+    font-size:70px;
+}
+.form{
+    font-size:50px;
+    text-align:left;
+}
+input::-webkit-input-placeholder {
+    font-size: 25px;
+    line-height: 3;
+}  
+input[type=text]{
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 17.5px;
+    width:50%;
+}
+select{
+    padding-top: 15px;
+    padding-bottom: 17.5px;
+    width:50%;
+    font-size: 20px;
+}
+textarea{
+    width:30%;
+    font-size: 30px;
+}
+input[type=submit]{
+    padding: 15px 20px 10px 5px;
+    
+}
+ 
